@@ -1,0 +1,20 @@
+@import 'media-breakpoints-mixins';
+@import 'variables';
+
+.responsiveFormRow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 5px;
+
+  @include media-sm {
+    flex-direction: column;
+  }
+
+  >* {
+    margin-right: 10px;
+    @include media-sm {
+      margin-right: 0;
+    }
+  }
+}

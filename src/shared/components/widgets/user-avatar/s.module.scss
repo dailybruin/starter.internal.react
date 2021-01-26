@@ -1,0 +1,30 @@
+.userAvatarCircle {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.popupTitleWrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.popupAvatarWrapper {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.popupTitleName {
+  font-size: 14px;
+}
+
+.popupTitleEmail {
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 14px;
+}
+
+.logoutButton {
+  color: rgba(0, 0, 0, 0.65);
+}

@@ -1,0 +1,28 @@
+@import 'media-breakpoints-mixins';
+
+.headerWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerTitle {
+  color: #fff;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.headerTime {
+  color: #fff;
+
+  @include media-sm {
+    display: none;
+  }
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  @include media-sm {
+    padding: 0 24px;
+  }
+}

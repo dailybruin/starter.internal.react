@@ -1,0 +1,15 @@
+@import 'variables';
+@import 'media-breakpoints-mixins';
+
+
+.fieldLabel {
+  font-size: $font-size-sm;
+
+  @include media-sm {
+    font-size: $font-size-sm;
+  }
+}
+
+.fieldLabelText {
+  margin-left: 5px;
+}
